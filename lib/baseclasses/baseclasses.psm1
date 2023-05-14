@@ -1,4 +1,4 @@
-<#
+ï»¿<#
 .SYNOPSIS  
     Base classes for working with 1C  
 .DESCRIPTION
@@ -45,20 +45,20 @@ class CmdLineParams {
 	[string] $clpUpdateCfg = '/UpdateDBCfg '
 	[string] $clpDumpCfgFiles = '/DumpConfigToFiles '
     [string] $clpLoadCfgFiles = '/LoadConfigFromFiles '
-    [string] $clpAcceptCode  = '/UC"ÊîäÐàçðåøåíèÿ" '
+    [string] $clpAcceptCode  = '/UC"ÐšÐ¾Ð´Ð Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ð¸Ñ" '
     [string] $clpDisStartupMsg  = '/DisableStartupMessages '
-    [string] $clpStopUsrRun  = '/C"ÇàâåðøèòüÐàáîòóÏîëüçîâàòåëåé" '
-    [string] $clpEnableUsrRun = '/C"ÐàçðåøèòüÐàáîòóÏîëüçîâàòåëåé" '
+    [string] $clpStopUsrRun  = '/C"Ð—Ð°Ð²ÐµÑ€ÑˆÐ¸Ñ‚ÑŒÐ Ð°Ð±Ð¾Ñ‚ÑƒÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹" '
+    [string] $clpEnableUsrRun = '/C"Ð Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒÐ Ð°Ð±Ð¾Ñ‚ÑƒÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹" '
 	
 }
 
 class OneCOperate {
 
-    [string]$vendor = "1Ñ-Ñîôò"
+    [string]$vendor = "1Ð¡-Ð¡Ð¾Ñ„Ñ‚"
     [string]$arch = "*x86-64*"
     [string]$platformPath
     [string]$space = " "
-	[string]$User = "Àäìèíèñòðàòîð"
+	[string]$User = "ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€"
 	[string]$Pass
 	[string]$connString
 	[string]$logFile = "output.txt"
